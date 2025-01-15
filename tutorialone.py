@@ -11,8 +11,8 @@ def user(name):
     return f"hello {name}"
 
 @app.route("/admin")
-def user():
-    return redirect(url_for("/"))
+def admin():
+    return redirect(url_for("user", name="Admin!"))
 
 
 if __name__ == "__main__":

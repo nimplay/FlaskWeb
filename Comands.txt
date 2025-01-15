@@ -1,0 +1,5 @@
+Install Flask
+  pip install flask
+
+Run Server
+  python "tutorialone.py"
